@@ -165,7 +165,7 @@ chmod +x /usr/local/bin/pipework
 
 # Install OpenVPN-AS
 curl -O http://swupdate.openvpn.org/as/openvpn-as-2.1.6-Ubuntu14.amd_64.deb
-dpkg -i openvpn-as-2.1.2-Ubuntu14.amd_64.deb 
+dpkg -i openvpn-as-2.1.6-Ubuntu14.amd_64.deb
 
 
 
