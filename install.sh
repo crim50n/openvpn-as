@@ -164,7 +164,7 @@ bash -c "curl https://raw.githubusercontent.com/jpetazzo/pipework/master/pipewor
 chmod +x /usr/local/bin/pipework
 
 # Install OpenVPN-AS
-curl -O http://swupdate.openvpn.org/as/openvpn-as-2.1.2-Ubuntu14.amd_64.deb
+curl -O http://swupdate.openvpn.org/as/openvpn-as-2.1.6-Ubuntu14.amd_64.deb
 dpkg -i openvpn-as-2.1.2-Ubuntu14.amd_64.deb 
 
 
@@ -176,4 +176,4 @@ dpkg -i openvpn-as-2.1.2-Ubuntu14.amd_64.deb
 # Clean APT install files
 apt-get clean -y
 rm -rf /var/lib/apt/lists/* /var/cache/* /var/tmp/*
-rm openvpn-as-2.1.2-Ubuntu14.amd_64.deb 
+rm openvpn-as-2.1.6-Ubuntu14.amd_64.deb
